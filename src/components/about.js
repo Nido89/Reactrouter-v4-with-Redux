@@ -5,7 +5,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <h1>Hello About {this.props.userName}</h1>
+                <h1>Hello Welcome to Redux with Jalal {this.props.userName}</h1>
                 <Link to='/'>Go to Home</Link>
             </div>
         )

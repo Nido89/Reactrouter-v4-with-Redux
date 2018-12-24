@@ -10,8 +10,8 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Hello World {this.props.userName}</h1>
-                <button onClick={this._changeData.bind(this)}>Change</button>
+                <h1>Hello Lets use Reducers {this.props.userName}</h1>
+                <button onClick={this._changeData.bind(this)}>Update</button>
                 <Link to='/about'>Go to About</Link>
             </div>
         )
